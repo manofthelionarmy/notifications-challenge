@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "PlusJakartaSans-ExtraBold";
+  src: url("assets/fonts/static/PlusJakartaSans-ExtraBold.ttf");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans-Medium";
+  src: url("assets/fonts/static/PlusJakartaSans-Medium.ttf");
+}
+
+body {
+ font-family: PlusJakartaSans; 
+ background-color: beige;
+ font-size: 1.6rem;
+ border: 1px solid transparent;
+}
+
+.grayish-blue-font {
+  color: hsl(219, 14%, 63%);
+}
+
+.very-light-grayish-blue {
+  color: hsl(210, 60%, 98%);
+}
+
+.light-grayish-blue-1 {
+  color: hsl(211, 68%, 94%);
+}
+
+.light-grayish-blue-2 {
+  color: hsl(205, 33%, 90%);
+}
+
+.dark-grayish-blue {
+  color: hsl(219, 12%, 42%);
+}
+
+.very-dark-blue {
+ color: hsl(224, 21%, 14%);
+}
+
+.card {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.25em;
+  padding: 1em 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.numUnreadNotifications {
+  display: inherit;
+  padding: 3px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 0.30em;
+  margin-left: 8pt;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.numUnreadNotifications {
+  background-color: hsl(224, 21%, 14%);
+}
+
+.mark-all-as-read {
+  color: hsl(219, 14%, 63%);
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.notifications {
+  display: flex;
+  font-size: 1em;
+}
+
+.profile-pic {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.profile-pic > img {
+  width: 4.5rem;
+}
+
+.unreadNotifications {
+  background-color: hsl(210, 60%, 98%);
+}
+
+
+
+.notification-content {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+}
+
+.dot {
+  justify-content: center;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  height: 0.6rem;
+  width: 0.6rem;
+}
+
+.notifications2 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+}
+
+.profile-pic2 {
+  padding: 0rem 1.8rem;
+}
+.profile-pic2 > img {
+  width: 4.5rem;
+}
+
+.notification-container2 {
+  display: block;
+}
+
+.notification-content2 {
+  display: block;
+}
+
+.dot2 {
+  display: inline-block;
+  background-color: hsl(224, 21%, 14%);
+  background-color: hsl(1, 90%, 64%);
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+}
+
+.how-along-ago2 {
+  margin-top: -0.8rem;
+}
